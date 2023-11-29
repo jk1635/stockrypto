@@ -18,7 +18,7 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint", "react-hooks", "prettier"],
+  plugins: ["prettier", "react", "@typescript-eslint", "react-hooks"],
   rules: {
     // 일반 규칙
     "no-nested-ternary": "off",
